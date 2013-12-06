@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	 	<title>drugs awareness</title>
+		<link rel="stylesheet" media="screen" type="text/css" href="stylesheets/style.css" />
+		<link rel="stylesheet" media="print" type="text/css" href="stylesheets/print.css" />
+		<link href='http://fonts.googleapis.com/css?family= ' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="/website/assets"></script>
+		
+	</head>
+	
+	<body>
+		
+			<h1><a href="index.html">High life</a></h1>
+		
+   			<p>"Get high on life and not drugs"</p>
+
+            <ul id="menu">
+				<li>
+					<a href="home.html" id="nav-1">Home</a>
+				</li>
+				<li>
+					<a href="legal-highs.html" id="nav-2">	legal highs</a>
+				</li>
+				<li>
+					<a href="my-story.html" id="nav-3"> My story</a> 
+				</li>
+			</ul>
+		</section>
+	</header>
+   <iframe width="560" height="315" src="http://www.youtube.com/embed/BOksW_NabEk?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+	
+	<div class="timer"></div>
+	
+		  <div class="saw"></div>
+		</div>
+	
+	<script>	var cset, countdown = {
+		    settings: {
+		        dateStart  : new Date('Jul 9, 2013 12:00:00'),
+		        dateEnd    : new Date('Jan 1, 2014 12:00:00'),
+		        elements   : document.querySelectorAll(".timer"),
+		        msgBefore  : "Be ready!",
+		        msgAfter   : "It's over, sorry folks!",
+		        msgPattern : '<span>{days} days, {hours} hours, {minutes} minutes and {seconds} seconds left.</span>',
+		        patterns   : [{
+		          pattern: '{years}',
+		          secs: 60,
+		        }, {
+		          pattern: '{months}',
+		          secs: 60,
+		        }, {
+		          pattern: '{weeks}',
+		          secs: 60,
+		        }, {
+		          pattern: '{days}',
+		          secs: 60
+		        }, {
+		          pattern: '{hours}',
+		          secs: 60
+		        }, {
+		          pattern: '{minutes}',
+		          secs: 60
+		        }, {
+		          pattern: '{seconds}',
+		          secs: 1
+		        }],
+		        interval   : 60,
+		        now        : new Date()  
+		    }, 
+
+		    init: function() {
+		        cset = this.settings;
+		        this.defineInterval();
+
+		        cset.now < cset.dateEnd && cset.now > cset.dateStart ? this.run() : this.outOfInterval();
+		    },
+
+		    run: function() {
+		        var nowTS    = cset.now.valueOf() / 1000,
+		            tarTS    = cset.dateEnd.valueOf() / 1000,
+		            sec      = Math.abs(tarTS - nowTS);
+
+		        var timer = setInterval(function() {
+		                sec--;
+
+		                if(sec > 0) {
+		                    countdown.display(sec);
+
+		                } else {
+		                    countdown.outOfInterval();
+		                    clearInterval(timer);
+		                }
+		            }, cset.interval);
+
+		        countdown.display(sec);
+		    },
+
+		    defineInterval: function() {
+		      for (var i = cset.patterns.length; i > 0; i--) { 
+		        var currentPattern = cset.patterns[i-1];
+
+		        if (cset.msgPattern.indexOf(currentPattern.pattern) !== -1) {
+		          cset.interval = currentPattern.secs * 1000;
+		          return;
+		        }
+		      }
+		    },
+
+		    display: function(sec) {
+		      var output = cset.msgPattern;
+
+		      for (var i = 0, len = cset.patterns.length; i < len; i++) {
+		        var currentPattern = cset.patterns[i];
+
+		        if (cset.msgPattern.indexOf(currentPattern.pattern) !== -1) {
+		          var number = Math.floor(sec / currentPattern.secs);
+		          sec -= number * currentPattern.secs;
+		          output = output.replace(currentPattern.pattern, number);
+		        }  
+		      }
+
+				  for(var i = 0, len = cset.elements.length; i < len; i++)
+		 	       cset.elements[i].innerHTML = output;
+		    },
+
+		    outOfInterval: function() {
+		      var message = cset.now > cset.dateStart ? cset.msgBefore : cset.msgAfter;
+				  for(var i = 0, len = cset.elements.length; i < len; i++)
+		 	       cset.elements[i].innerHTML = message;
+		    }
+		}
+
+		countdown.init();
+	</script>
+	
+	
+		<div class="wrapper">
+			<section id="content">
+				<h1>Home</h1>
+					<h2>How Many People Die from Drugs a Year?</h2>
+					
+					<ul>
+						<li>
+							Answer?
+							About 2.5 million people die each year from drugs world-wide.
+							thats an average of around 285 people die every hour
+						</li>
+					</ul>
+				
+						<li>About 200 million people worldwide use illegal drugs each year, according to a new report.
+
+						Illegal drug use causes about a quarter of a million deaths per year, according to the report, and use is highest in developed countries.
+
+						The report is the first in a series of papers published in the journal the Lancet that address the burden of disease due to illicit drug use. It reviews information on the prevalence of illegal drug use, as well as its acute and chronic health effects.<li>
+		  		
+		        <p>life is what you make it!</p>
+				<p>Say no to drugs its your decision!</p>
+				<p>drugs are not Kool do not be a fool!</p>		
+
+
+
+				
+				
+			
+				<meta charset="utf-8">
+			
+			
+				<div class="small progress">Loading…</div>
+				<div class="progress">Loading…</div>
+				<div class="large progress">Loading…</div>
+
+			
+		
+	
+					<p>enter a name of a drug for information<span>page</span>...</p>
+				</section>
+			</div>
+			
+		</div>
+	</body>
+</html>
