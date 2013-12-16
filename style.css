@@ -7,8 +7,22 @@
          url('fonts/bad_grunge-webfont.svg#bad_grungeregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
 }
+ 
+
+
+@font-face {
+    font-family: 'firestarterregular';
+    src: url('fonts/firestar-webfont.eot');
+    src: url('fonts/firestar-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/firestar-webfont.woff') format('woff'),
+         url('fonts/firestar-webfont.ttf') format('truetype'),
+         url('fonts/firestar-webfont.svg#firestarterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Finger+Paint);
@@ -110,7 +124,7 @@ header p{
 	font-family: 'Impact';
     font-style:italic;
     font-size:38px;
-    text-align:center;
+   text-align:center;
     margin-top:0px;
 }  
 
@@ -135,7 +149,13 @@ section#content {
 	margin: 0 auto;
 	
 }
-.cool-font{
-	font-friday night lights 	
+header section, 
+section#content-legally-high {
+	width:700px;
+	margin: 0 auto;
 	
+}
+.cool-font p{ 
+ 	font-family: 'firestarterregular';
+	font-size:100px;
 }
