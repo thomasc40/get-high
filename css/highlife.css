@@ -624,10 +624,10 @@ footer{
   margin-left: -360px;
 }
 .fb1{
-  max-width: 346px;
-
-}
-.video-far-left{
-  margin-top: -280px;
-  margin-left: 90px;
-}
+  }
+  .story-blue{
+    margin-left: 84px;
+  }
+  .story-pink{
+    margin-left: 67px;
+  }
