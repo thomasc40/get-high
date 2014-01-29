@@ -1,239 +1,214 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	 	<title>drugs awareness</title>
-		<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
-		<link rel="stylesheet" media="print" type="text/css" href="print.css" />
-		<meta charset="utf-8">
-				
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/newsTicker.js"></script>
-		<script>$(function () {
-        $('#newsList').newsTicker();
-    });</script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		
-		
-	</head>
-	
-	<body>
-	
-		<header>
-			<section>
-				<h1><a href="home.html">High life</a></h1>
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>High-life home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/highlife.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52e282874a226a93"></script>
+
+
+
+
+<!-- AddThis Welcome BEGIN -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52e2ceff34524453"></script>
+<script type='text/javascript'>
+addthis.bar.initialize({'default':{
+  "backgroundColor": "#000000",
+  "buttonColor": "#098DF4",
+  "textColor": "#FFFFFF",
+  "buttonTextColor": "#FFFFFF"
+},rules:[
+  {
+    "name": "Facebook",
+    "match": {
+      "referringService": "facebook"
+    },
+    "message": "Tell your friends about us:",
+    "action": {
+      "type": "button",
+      "text": "Share on Facebook",
+      "verb": "share",
+      "service": "facebook"
+    }
+  }
+]});
+</script>
+<!-- AddThis Welcome END -->
+
+
+ </head>
+  <body>
+    
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=219307618252958";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="facts.html"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">High life</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                 <div class="nav-collapse collapse">
+                    <ul class="nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="facts.html">Drug facts</a></li>
+                      <li><a href="stories.html">Stories</a></li>
+                      <li><a href="get-help.html">Get help</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+     <img class="high-life-title" src="img/highlifetitle.jpg">
+     <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/life-does-not.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/banner2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/background-banner4.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
 
  
-              <div id="newsData" class="row newsCss"></div>
-              <ul id="newsList">
-                      <li class="news-item" onclick="alert('hello')"/>Children are often the silent victims of drug abuse!"</li>
-                      <li class="news-item" >"Drug addiction destroys lives, tears apart families and harms society"</li>
-                      <li class="news-item" >"help is not for people who need it, its for people who want it"</li>
-              </ul>
-
-			
-						    </div>
-						
-			
-					</ul>
-
-	            <ul id="menu">
-					<li>
-						<a href="home.html" class="active" id="nav-1">Home</a>
-					</li>
-					<li>
-						<a href="legal-highs.html" id="nav-2">	legal highs</a>
-					</li>
-					<li>
-						<a href="my-story.html" id="nav-3"> My story</a> 
-					</li>
-				</ul>
-			</section>
-		</header>
-			<div class="sp-slideshow">
-
-			    <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
-			    <label for="button-1" class="button-label-1"></label>
-
-			    <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
-			    <label for="button-2" class="button-label-2"></label>
-
-			    <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
-			    <label for="button-3" class="button-label-3"></label>
-
-			    <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
-			    <label for="button-4" class="button-label-4"></label>
-
-			    <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
-			    <label for="button-5" class="button-label-5"></label>
-
-			    <label for="button-1" class="sp-arrow sp-a1"></label>
-			    <label for="button-2" class="sp-arrow sp-a2"></label>
-			    <label for="button-3" class="sp-arrow sp-a3"></label>
-			    <label for="button-4" class="sp-arrow sp-a4"></label>
-			    <label for="button-5" class="sp-arrow sp-a5"></label>
-
-			    <div class="sp-content">
-			        <div class="sp-parallax-bg"></div>
-			        <ul class="sp-slider clearfix">
-			            <li><iframe width="900" height="460" src="http://www.youtube.com/embed/aXv-NrER2l0" frameborder="0" allowfullscreen></iframe></li>
-			            <li><iframe width="900" height="460" src="http://www.youtube.com/embed/IHX7zQrBEG8" frameborder="0" allowfullscreen></iframe></li>
-			            <li><iframe width="900" height="460" src="http://www.youtube.com/embed/2yNoHqndq-U" frameborder="0" allowfullscreen></iframe></li>
-			            <li><iframe width="900" height="460" src="http://www.youtube.com/embed/qq9JOUWQ684" frameborder="0" allowfullscreen></iframe></li>
-			            <li><iframe width="900" height="460" src="http://www.youtube.com/embed/s6Wn08NzjnE" frameborder="0" allowfullscreen></iframe></li>
-			        </ul>
-			    </div><!-- sp-content -->
-
-			</div><!-- sp-slideshow -->
-
-<br />
-	
-		<div class="wrapper">
-			<section id="content">
-				<iframe width="800" height="500" src="http://www.youtube.com/embed/99-9QpsS0Uo?rel=0" frameborder="0" allowfullscreen></iframe>	
-			
-				
-					<div class="contain">
-					  <a href="£" class="tooltip">this is a link <span> this is the tooltip</span> </a> 
-					</div>			
-			
-			
-			
-			<img src="../highlife/img/frank.gif" width="288" height="68" alt="Frank">
-			
-
-		 			<p>"Get high on life and not drugs"</p>
-						<div id="newsData" class="row newsCss"></div>
-						<ul id="newsList">
-				
-			
-		  		
-						<iframe width="540" height="315" src="http://www.youtube.com/embed/BOksW_NabEk?rel=0" frameborder="0" allowfullscreen></iframe>
-		
-		<h2>see your life in something other then money</h2>
-		        <p>life is what you make it!</p>
-				<p>Say no to drugs its your decision!</p>
-				<p>drugs are not Kool do not be a fool!</p>		
-	
-
-			
-      
-      
-      <p>  		About 200 million people worldwide use illegal drugs each year, according to a new report.
-
-  						Illegal drug use causes about a quarter of a million deaths per year, according to the report, and use is highest in developed countries.
-
-  						The report is the first in a series of papers published in the journal the Lancet that address the burden of disease due to illicit drug use. It reviews information on the prevalence of illegal drug use, as well as its acute and chronic health effects.  </p>
-			
-			
- <a href="#" title="This will show up in the tooltip" class="masterTooltip">Your Text</a>
- <p title="Mouse over the heading above to view the tooltip." class="masterTooltip">Mouse over the heading text above to view it's tooltip.</p>
- <img src="image.jpg" class="masterTooltip" title="Tooltip on image" />
-
-			
- <a href="#" title="This will show up in the tooltip" class="masterTooltip">Your Text</a>
- <p title="Mouse over the heading above to view the tooltip." class="masterTooltip">Mouse over the heading text above to view it's tooltip.</p>
- <img src="image.jpg" class="masterTooltip" title="Tooltip on image" />
-
-			
-		
-			
-  <="This will show up in the tooltip" class="masterTooltip">Your Text</a>
-  <img src="pictures/frank.gif" width="472" height="223" alt="Frank"title="What is frank? Its aim is to provide young people with the facts about drug use so they can make informed choices. The non-judgemental approach focuses on “harm reduction” rather than simply telling young people not to do drugs." class="masterTooltip">
-  <img src="image.jpg" class="masterTooltip" title="Tooltip on image" />
-	
-				
-
-	<img src="../../drugs_change_you_2_by_shadnicfusion-d4iz9sn.jpg" width="752" height="1063" alt="Drugs Change You 2 By Shadnicfusion D4iz9sn" onclick="alert('Hello')"/>
-	
-		
-		<script src="http://code.jquery.com/jquery.js" rel="stylesheet"></script>
-    <script src="bootstrap/js/bootstrap-transition.js" rel="stylesheet"></script>
-    <link href="bootstrap/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap/js/bootstrap.min.js" rel="stylesheet"></script>
-    <script src="bootstrap/js/bootstrap.js" rel="stylesheet"></script>
-    <script src="bootstrap/js/bootstrap-carousel.js" rel="stylesheet"></script>
 
 
-    <!-- a style change to resize small images up-->
-    <style>
-    .carousel .item img{width:75%;}
-    </style>
-
-    <!-- then a little javascript to render the correct responsive image depending on browser width-->
-    <script>
-    $(document).ready(function() {
-
-    $('.carousel').carousel({
-    interval: 7000
-    });
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
 
-    function setImageSrc() {
-    var browserWidth = $(window).width();
-    var carouselImages = $('.carousel .item img');
-    $.each(carouselImages, function(index){
-    if(browserWidth >= 480 && browserWidth <= 768 ){
-    $(this).attr('src', $(this).data("tablet-src"));
-    }else if(browserWidth > 768 && browserWidth <= 1280){
-    $(this).attr('src', $(this).data("desktop-src"));
-    }else if(browserWidth > 1280)
-    $(this).attr('src', $(this).data("large-desktop-src"));
-    });
-    }
-    setImageSrc();//init
-    $(window).resize(function() {
-    setImageSrc();
-    });
+    <div class="container marketing">
 
-    });
-    </script>
-    </head>
-    <body>
+     <div id="home-pics" class="span6">
+      <div class="row">
+        <div class="span12">
+        
+        <div class="span4 drugfacts">
+            <i class="fa fa-question-circle did-you-know"></i> 
+          <h2>Drug facts</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="facts.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+           <i class="fa fa-book book "></i>
+          <h2>Stories</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="stories.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+         <div class="span4">
+            <i class="fa fa-exclamation help-icon img-circle mb-1"></i> 
+          <h2>Get help!</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="get-help.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+</div>
+ <script type="text/javascript">addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'right',
+      'numPreferredServices' : 5
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'pages/High-life/488901571229058'}
+      ]
+    },  
+    'whatsnext' : {},  
+    'recommended' : {} 
+  });
+</script>
+              
 
-    <!-- Place in the body where you want the carousel and pass in the html id you want to give the carousel for the first parameter and the album id into the 2nd parameter of the createCarousel function.-->
-    <?php
-    include "my-carousel.php";
-    createCarousel("featured", 349);
-    ?>
-		
-		          <script type="text/javascript">
-              $(document).ready(function() {
-              // Tooltip only Text
-              $('.masterTooltip').hover(function(){
-                      // Hover over code
-                      var title = $(this).attr('title');
-                      $(this).data('tipText', title).removeAttr('title');
-                      $('<p class="tooltip"></p>')
-                      .text(title)
-                      .appendTo('body')
-                      .fadeIn('slow');
-              }, function() {
-                      // Hover out code
-                      $(this).attr('title', $(this).data('tipText'));
-                      $('.tooltip').remove();
-              }).mousemove(function(e) {
-                      var mousex = e.pageX + 20; //Get X coordinates
-                      var mousey = e.pageY + 10; //Get Y coordinates
-                      $('.tooltip')
-                      .css({ top: mousey, left: mousex })
-              });
-              });
-              </script>
+<div class="fb-comments" data-href="https://www.facebook.com/photo.php?v=489843367801545" data-numposts="5" data-colorscheme="dark"></div>
+
+
+            <!-- FOOTER -->
+            <footer>
+              <p class="pull-right"><a href="|'/'">Back to top</a></p>
+              <p>&copy; 2014 Thomas Cain &middot; <a href="aboutus.html">About us</a> 
+            </footer>
 
 
 
 
-
-                       </ul>  
-
-			
-		
-	
-				</section>
-			</div>
-			
-		</div>
-	</body>
-</html>
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+    		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+      </body>
+    </html>
