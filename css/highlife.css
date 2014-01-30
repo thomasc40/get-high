@@ -630,8 +630,11 @@ footer{
   }
   .story-pink{
     margin-left: 67px;
+    margin-top: 480px;
   }
- 
+ .story-video{
+  margin-top: 280px;
+ }
 
 
 
@@ -679,10 +682,54 @@ animation-delay: 1.6s;
 width: 200px;
 height: 200px;
 position: relative;
-margin: 10px;
+margin: 0px;
 float: left;
 border: 1px solid #333;
 background: #999;
-background-image: url("../img/mask_man_Graffiti-flip.gif");
+background-image: url("../img/pink-post-note.gif");
+right: 175px;
+top: 150px;
 
+}
+
+.box1{
+width: 200px;
+height: 200px;
+position: relative;
+margin: 0px;
+float: left;
+border: 1px solid #333;
+background: #999;
+background-image: url("../img/green-post-note.gif");
+right: 85px;
+bottom: -200px;
+} 
+.box2{
+width: 200px;
+height: 200px;
+position: relative;
+margin: 0px;
+float: left;
+border: 1px solid #333;
+background: #999;
+background-image: url("../img/blue-post-note.gif");
+right: 10px;
+top:150px;
+}
+.box3{
+width: 369px;
+height: 150px;
+position: relative;
+margin: 0px;
+float: left;
+border: 1px solid #333;
+background: #999;
+background-image: url("../img/you.gif");
+right: -395px;
+}
+.post-notes{
+  max-width: 15%;
+}
+.blackboard{
+position: absolute;
 }
