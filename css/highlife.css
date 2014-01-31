@@ -37,7 +37,7 @@
 
     /* Downsize the brand/project name a bit */
     .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      padding: 14px 13px 16px; /* Increase vertical padding to match navbar links */
       font-size: 16px;
       font-weight: bold;
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
@@ -733,3 +733,17 @@ right: -395px;
 .blackboard{
 position: absolute;
 }
+
+.navbar-inverse .brand1 {
+  color: #39B1C8;
+padding: 14px 13px 16px;
+font-size: 16px;
+font-weight: bold;
+display: block;
+float: left;
+margin-left: -20px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+a#hover123:hover .brand,a#hover123:hover .brand1 {color: white !important;}
+
+
